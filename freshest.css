@@ -1,0 +1,167 @@
+html, head, body, h1, h2, p {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.p1 {
+    background-image: url(images/veg.jpg) ;
+    width: auto;
+    height: 969px;
+}
+
+.header {
+    font-size: 23px;
+    border-bottom: 2px solid white;
+    margin: 0 80px 0 80px;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.897);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px 0 5px 0 ;
+}
+
+.head li {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+.freshest {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+
+
+.center {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top:230px;
+}
+
+.center h1 {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.center p {
+    padding-top: 10px;
+}
+
+.p2 {
+    width:auto;
+    height: 600px;
+    background-color: black;
+
+}
+
+.p2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.breads li {
+    display: flex;
+    flex-grow: 1;
+    height: 600px;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.breads h1 {
+    margin: 0 370px 20px 0;
+    
+}
+
+.p2 ul li:first-child {background: url(images/bread.jpg); background-size: 898px; background-position: 800px; flex-grow: 1.4}
+.p2 ul li:last-child {background: black; }
+
+
+.p3 {
+    width: auto;
+    height: 600px;
+    background-color: gray;
+}
+
+.p3 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.pineapples li {
+    display: flex;
+    flex-grow: 1;
+    height: 600px;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pineapples h1 {
+    margin: 0 370px 20px 0;
+    
+}
+
+.p3 ul li:first-child {background: rgb(26, 26, 26); }
+.p3 ul li:last-child {background: url(images/pineapple.jpg); background-size: 898px; background-position: 800px; flex-grow: 1.4}
+
+
+
+
+.pineapple {
+    width:800px;
+    height: 600px;
+    background-image: url(images/pineapple.jpg) ;
+    background-size: 900px;
+    float: right;
+}
+
+.p4 {
+    width: auto;
+    height: 600px;
+}
+
+.p4 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.pastas li {
+    display: flex;
+    flex-grow: 1;
+    height: 600px;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pastas h1 {
+    margin: 0 370px 20px 0;
+    
+}
+
+.p4 ul li:first-child {background: url(images/pasta.jpg); background-size: 898px; background-position: 800px; flex-grow: 1.4}
+.p4 ul li:last-child {background: rgb(70, 70, 70); }
